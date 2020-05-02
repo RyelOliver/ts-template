@@ -1,0 +1,26 @@
+{
+    "name": "template",
+    "version": "1.0.0",
+    "description": "Description of package.",
+    "main": "build/index.js",
+    "scripts": {
+        "build": "tsc index.ts --declaration --outDir build",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "test:coverage": "jest --coverage"
+    },
+    "keywords": [
+        "javascript",
+        "typescript"
+    ],
+    "author": "Ryel Oliver <rmuchunku@gmail.com> (https://github.com/RyelOliver)",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^25.2.1",
+        "@types/node": "^13.13.0",
+        "jest": "^24.9.0",
+        "ts-jest": "^25.4.0",
+        "tslint": "^6.1.1",
+        "typescript": "^3.8.3"
+    }
+}
